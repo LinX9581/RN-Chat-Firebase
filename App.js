@@ -1,6 +1,8 @@
 // Import the screens
 import Main from './components/Main';
 import Chat from './components/Chat';
+// import Chat from './components/Chat';
+
 import React from "react";
 // Import React Navigation
 import { createSwitchNavigator, createAppContainer} from "react-navigation";
@@ -13,7 +15,7 @@ const AppSwitchNavigator = createSwitchNavigator({
 
 const AppNavigator = createAppContainer(AppSwitchNavigator)
 
-// Export it as the root component
+// Export it as the root component12121
 export default class App extends React.Component {
   render() {
     return <AppNavigator />;

@@ -21,7 +21,7 @@
       "bundleIdentifier": "com.yourcompany.yourappname"
     },
     "android": {
-      "package": "com.shu.chat-firebase"
+      "package": "com.shu.chat"
     }
   }
 }
